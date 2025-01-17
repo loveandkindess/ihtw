@@ -2,12 +2,13 @@
 **I** **H**ope **T**his **W**orks, the world's fastest data serialization library. Faster than a millisecond in most use cases.
 
 Better than Cap 'n Proto, MessagePack, Avro, and Protobufs. This is like MessagePack with names and endianess handling. Plus zero-copy (at least in C)
+This also supports Brainfloat, The Unum format (Posits and Quires). **Sounds too good to be true?** Not without tons of boilerplate, memory corruption.
 
 Now why is it called "I hope this works"? It is so verbose you'll most likely improperly use it, and I hacked it together over a couple weeks. No formal testing.
 There was constant memory corruption and hundreds of lines of boilerplate.
 
-**CHECK OUT ihtw-test.c for some very very performant and verbose code you'll probably never want to see again**
-
+## **CHECK OUT ihtw-test.c for some very very performant and verbose code you'll probably never want to see again**
+## PLEASE FIX ANY ERRORS AND GIVE FEEDBACK
 This is the basics of the format:
 
 ```
