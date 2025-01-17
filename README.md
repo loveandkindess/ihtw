@@ -91,7 +91,7 @@ enum IHTW_TYPE
     IHTW_FLOAT_256 = 25,
     IHTW_FLOAT_512 = 26,
 
-    IHTW_TYPE_BFLOAT = 5,
+    IHTW_TYPE_BFLOAT = 5, //brainfloat
     IHTW_BFLOAT_8 = 27,
     IHTW_BFLOAT_16 = 28,
     IHTW_BFLOAT_32 = 29,
@@ -100,7 +100,7 @@ enum IHTW_TYPE
     IHTW_BFLOAT_256 = 32,
     IHTW_BFLOAT_512 = 33,
 
-    IHTW_TYPE_POSIT = 6,
+    IHTW_TYPE_POSIT = 6, // https://posithub.org/about
     IHTW_POSIT_8 = 34,
     IHTW_POSIT_16 = 35,
     IHTW_POSIT_32 = 36,
@@ -109,7 +109,7 @@ enum IHTW_TYPE
     IHTW_POSIT_256 = 39,
     IHTW_POSIT_512 = 40,
 
-    IHTW_TYPE_QUIRE = 7,
+    IHTW_TYPE_QUIRE = 7, // https://posithub.org/about
     IHTW_QUIRE_8 = 41,
     IHTW_QUIRE_16 = 42,
     IHTW_QUIRE_32 = 43,
